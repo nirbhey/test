@@ -1,0 +1,30 @@
+Step 1: Create a directory you want to store your files for Git.
+Step 2: Copy/Move files you want to upload on Git to this directory.
+Step 3: Open Git Bash and cd to your made directory.
+Step 4: Write the following commands into the Git Bash;
+
+$ git config --global user.name "Your_username"
+
+$ git config --global user.email my_mail@xyz.com
+
+Step 5: After you have configured your git on your PC, use the following commands as per use;
+
+CLONE: It is used to clone your Git(uploaded) files to your current directory.
+
+eg. $ git clone https://github.com/nirbheySinghPahwa/test.git
+
+ADD: It's used to add some file into the git branch, but remember it will not be reflected until comitted and pushed.
+
+eg. $ git add file_name.extension
+
+COMMIT:
+
+eg. $ git commit -m "test commit" file_name.extension
+
+PUSH:
+
+eg. $ git push -u origin master
+
+STATUS:
+
+eg. $ git status
